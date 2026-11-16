@@ -29,10 +29,10 @@ pip install -r requirements.txt
 python -c "from db_tools_registry import init_db; init_db()"
 
 # Run the app
-uvicorn app:app --port 8081 --reload
+uvicorn app:app --port 8008 --reload
 
 # Open browser
-# http://localhost:8081
+# http://localhost:8008
 ```
 
 ### Production Deployment (Server1)
@@ -46,7 +46,7 @@ cd ipcore-tools
 # Run install script
 ./deploy/install.sh
 
-# Service runs at http://server1:8081
+# Service runs at http://server1:8008
 ```
 
 ## Usage

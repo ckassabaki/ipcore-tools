@@ -35,7 +35,7 @@ chmod +x deploy/*.sh
 
 ### 3. Access the Registry
 
-Open browser to: **http://server1:8081**
+Open browser to: **http://server1:8008**
 
 ---
 
@@ -56,7 +56,7 @@ python db_tools_registry.py
 # Run the app
 python app.py
 
-# Open: http://localhost:8081
+# Open: http://localhost:8008
 ```
 
 ---
@@ -112,8 +112,8 @@ python crawlers/run_all.py
 
 ## Troubleshooting
 
-**Port 8081 already in use?**
-Edit `app.py` line 72: change `port=8081` to another port
+**Port 8008 already in use?**
+Edit `app.py` line 72: change `port=8008` to another port
 
 **Permission denied on scripts?**
 ```bash
@@ -136,4 +136,4 @@ python db_tools_registry.py
 4. Share URL with team
 5. Post in GChat for submissions!
 
-**Your tool registry will be live at:** `http://server1:8081`
+**Your tool registry will be live at:** `http://server1:8008`
