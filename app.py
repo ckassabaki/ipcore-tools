@@ -66,11 +66,11 @@ async def health_check():
 
 if __name__ == "__main__":
     # Run with: python app.py
-    # Or: uvicorn app:app --port 8090 --reload
+    # Or: uvicorn app:app --port 8081 --reload
     uvicorn.run(
         "app:app",
         host="0.0.0.0",
-        port=8090,
+        port=8081,
         reload=True,
         log_level="info"
     )
